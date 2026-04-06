@@ -1,0 +1,31 @@
+{
+  "categories": [
+    "_id (BINARY VARYING)",
+    "name (CHARACTER VARYING)",
+    "description (CHARACTER VARYING)",
+    "active (BOOLEAN)",
+    "id (CHARACTER VARYING)",
+    "editMode (BOOLEAN)",
+    "createdAt (CHARACTER VARYING)"
+  ],
+  "columns_config": [
+    "_id (BINARY VARYING)",
+    "columnName (CHARACTER VARYING)",
+    "isActive (CHARACTER VARYING)"
+  ],
+  "products": [
+    "_id (BINARY VARYING)",
+    "category (CHARACTER VARYING)",
+    "sku (CHARACTER VARYING)",
+    "productName (CHARACTER VARYING)",
+    "description (CHARACTER VARYING)",
+    "productLabel (CHARACTER VARYING)",
+    "productStatus (CHARACTER VARYING)",
+    "country (CHARACTER VARYING)",
+    "createdAt (TIMESTAMP)",
+    "group_id (CHARACTER VARYING)",
+    "unique_id (CHARACTER VARYING)",
+    "config_json (CHARACTER VARYING)",
+    "active (CHARACTER VARYING)"
+  ]
+}

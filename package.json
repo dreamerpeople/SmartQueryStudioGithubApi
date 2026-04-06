@@ -1,0 +1,33 @@
+{
+  "name": "smartquerystudiogithubapi",
+  "version": "1.0.0",
+  "description": "GitHub Copilot Extension API for Smart Query Studio",
+  "main": "daemon_app.js",
+  "scripts": {
+    "start": "node daemon_app.js",
+    "dev": "nodemon daemon_app.js",
+    "build": "echo \"Production build complete.\""
+  },
+  "keywords": [
+    "github-copilot",
+    "copilot-extension",
+    "express",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "@octokit/auth-app": "^8.2.0",
+    "@octokit/rest": "^22.0.1",
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "octokit": "^5.0.5",
+    "openai": "^6.25.0"
+
+  }
+}
